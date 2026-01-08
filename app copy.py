@@ -15,8 +15,8 @@ CORS(app, resources={r"/api/*": {"origins": "*"}})
 DB_FILE = 'database.json'
 
 # --- การตั้งค่า Email (แก้ไขตรงนี้) ---
-SENDER_EMAIL = "patcharapol.20052@gmail.com"  # อีเมลของร้าน
-SENDER_PASSWORD = "inkq ceqo jmcn ghdk" # รหัสผ่านแอป (App Password 16 หลักจาก Google)
+SENDER_EMAIL = "wattayutacservice@gmail.com"  # อีเมลของร้าน
+SENDER_PASSWORD = "wqno oymv qwlu jhas" # รหัสผ่านแอป (App Password 16 หลักจาก Google)
 
 def send_mail(receiver_email, subject, body):
     if not receiver_email: return
